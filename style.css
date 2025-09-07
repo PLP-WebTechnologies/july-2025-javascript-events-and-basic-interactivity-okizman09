@@ -1,0 +1,39 @@
+/* 🌍 Base light mode styles */
+body {
+  background-color: darkgray;
+  margin: 0 auto;
+  border: solid cyan;
+  padding: 20px;
+  color: black; /* ensure readable text in light mode */
+}
+
+/* 🎨 Headings */
+#header {
+  display: block;
+  text-align: center; /* easier than justify-content for text */
+  font-family: fantasy;
+}
+
+/* 📖 Paragraphs */
+p {
+  background-color: cadetblue;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* 🌑 Dark mode override */
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+/* Make paragraphs adapt in dark mode */
+body.dark-mode p {
+  background-color: #1e1e1e; /* dark gray instead of cadetblue */
+  color: #ddd; /* softer white text */
+}
+
+/* Optional: header looks better in dark mode */
+body.dark-mode #header {
+  color: cyan;
+}

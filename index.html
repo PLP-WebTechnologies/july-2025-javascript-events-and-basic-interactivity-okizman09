@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width= device-width initial-scale=1.0">
+        <title>Interactive Web Pages with JavaScript</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <button onclick="toggleTheme()">Toggle dark mode</button><br>
+    <button id="counterBtn">Click me</button>
+<p id="counterValue">0</p>
+    <button class="faq-toggle">What is JavaScript?</button>
+<div class="faq-answer" style="display:none;">
+  JavaScript is a programming language for the web.
+</div><br>
+    <button id="dropdownBtn">Menu ▼</button>
+<ul id="dropdownMenu" style="display:none;">
+  <li>Home</li>
+  <li>About</li>
+  <li>Contact</li>
+</ul>
+    <div>
+  <button class="tab" data-tab="1">Tab 1</button>
+  <button class="tab" data-tab="2">Tab 2</button>
+</div>
+
+<div id="tab1" class="tab-content">Content for Tab 1</div>
+<div id="tab2" class="tab-content" style="display:none;">Content for Tab 2</div>
+
+
+
+
+    <h1 id="header">🧠 Assignment: Interactive Web Pages with JavaScript</h1>
+    <p>Welcome to the exciting world of interactivity! This assignment is all about making your web pages feel alive. You’ll learn how to respond to user actions, build engaging components, and validate form input—without reloading the page. This is where JavaScript gets fun, practical, and powerful. 🚀</p>
+    <h2>🎉 Part 1: JavaScript Event Handling and Interactive Elements</h2>
+    <p>Let’s start with the basics of event handling. You'll set up JavaScript to listen for user actions like clicks, mouseovers, keyboard input, and more—and respond to them in meaningful ways.
+
+Goal: Use event listeners to react to user behavior and trigger changes on the page (e.g., showing messages, toggling classes, hiding/showing content).</p>
+    <h2>🎮 Part 2: Building Interactive Elements</h2>
+    <p>Now it’s time to apply what you’ve learned by creating your own mini interactive features. You can build things like:</p>
+<ul>
+<li>A light/dark mode toggle</li>
+<li>A counter or button game</li>
+<li>A collapsible FAQ section</li>
+<li>A simple dropdown menu</li>
+<li>A tabbed interface</li></ul>
+<p>Goal: Use DOM manipulation + events to make the page dynamic and engaging. Be creative!</p>
+    <h2>📋✅ Part 3: Form Validation with JavaScript</h2>    
+<p>Forms are essential to the web—and validating them properly is key to good user experience. You’ll build a form with multiple input fields (name, email, password, etc.) and write JavaScript to validate each field when the user submits or types.</p>
+    <p>Goal:Prevent incorrect form submissions by writing custom validation logic using conditions and regular expressions. Show user-friendly error messages and success feedback.</p>
+
+<form id="signupForm">
+  <input type="text" id="name" placeholder="Enter your name" required><br>
+  <input type="email" id="email" placeholder="Enter your email" required><br>
+  <input type="password" id="password" placeholder="Enter password" required><br>
+  <button type="submit">Sign Up</button>
+</form>
+<p id="formMessage"></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
